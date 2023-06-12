@@ -1,0 +1,151 @@
+@media screen and (max-width: 1098px) {
+  #header {
+    height: 70vh;
+  }
+  .container {
+    margin: 0 60px;
+  }
+  .header-text {
+    max-width: 300px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .about-tex h2 {
+    font-size: 20px;
+  }
+  .social-icons img {
+    width: 20px;
+    margin: 15 auto;
+  }
+}
+@media screen and  (max-width: 860px) {
+  .container {
+    margin: 0 40px;
+  }
+  .header-text {
+    max-width: 280px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .logo {
+    margin-top: 27px;
+    width: 70px;
+  }
+  #menuBtn {
+    width: 40px;
+    right: 50px;
+  }
+  .common-btn {
+    padding: 10px 16px;
+  }
+  .about-tex h2 {
+    font-size: 18px;
+  }
+  .social-icons img {
+    width: 14px;
+    margin: 15 auto;
+  }
+}
+@media screen and (max-width: 770px) {
+  h1 {
+    font-size: 25px;
+  }
+  .common-btn {
+    padding: 10px 16px;
+  }
+  /* === headr === */
+
+  #header {
+    height: 75vh;
+    background-image: none;
+  }
+  .container {
+    margin: 0 50px;
+  }
+  .logo {
+    margin-top: 27px;
+    width: 70px;
+  }
+  .header-text {
+    margin-top: 100px;
+  }
+
+  /* === nav bar === */
+
+  #menuBtn {
+    width: 40px;
+    right: 50px;
+  }
+
+  /* === social media icons === */
+
+  .social-icons img {
+    width: 14px;
+    margin: 15 auto;
+  }
+
+  /* === about === */
+  #about {
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .about-left-col,
+  .about-right-col {
+    flex-basis: 100%;
+  }
+  .about-tex {
+    margin: 50px 50px 0;
+    display: inline-block;
+  }
+  .about-tex h2 {
+    font-size: 18px;
+  }
+
+  /* === features === */
+
+  .feature-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* === coures === */
+
+  .course-left-col {
+    flex-basis: 100%;
+  }
+  .course-right-col {
+    flex-basis: 100%;
+    margin-top: 70px;
+  }
+
+  /* === contact === */
+
+  .contact-left-col,
+  .contact-right-col {
+    flex-basis: 100%;
+  }
+
+  .contact-right-col {
+    margin-top: 50px;
+  }
+
+  /* === footer === */
+
+  .footer-left-col,
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+  .link-title {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+  }
+}
